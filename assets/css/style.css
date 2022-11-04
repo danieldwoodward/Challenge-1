@@ -1,3 +1,4 @@
+/* Set the global attributes to the html document */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -46,7 +47,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* these specifications control the large photo that is being used as the background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,7 +56,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* these remaining specifications style: images, text blocks, and containers-- in the webpage. */
 .float-left {
     float: left;
     margin-right: 25px;
